@@ -68,6 +68,12 @@ dependencies {
     //dagger hilt
     implementation(libs.hilt.android)
     kapt(libs.hilt.android.compiler)
+
+    // For Jetpack Navigation with Compose
+    implementation(libs.androidx.navigation.compose)
+
+    // Hilt Navigation for Compose
+    implementation(libs.androidx.hilt.navigation.compose)
 }
 
 kapt {

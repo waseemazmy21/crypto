@@ -1,5 +1,7 @@
 package com.example.crypto.domain.model
 
+import com.example.crypto.data.remote.dto.TeamMember
+
 data class CoinDetails(
     val id: String,
     val name: String,

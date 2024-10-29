@@ -1,7 +1,7 @@
 # CryptoApp 📈💸
 
-![Coin List Screen](docs/img1.jfif)
-![Coin Details Screen](docs/img2.jfif)
+![Coin List Screen](docs/img1.png)
+![Coin Details Screen](docs/img2.png)
 
 CryptoApp is a streamlined mobile application that provides real-time data and details on various cryptocurrencies. The app delivers an easy-to-navigate list of popular coins and allows users to click on a coin to view detailed information. Built with Jetpack Compose.
 

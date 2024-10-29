@@ -87,6 +87,8 @@ fun CoinDetailsScreen(
                         )
                         Spacer(modifier = Modifier.height(15.dp))
                         FlowRow(
+                            horizontalArrangement = Arrangement.spacedBy(8.dp),
+                            verticalArrangement = Arrangement.spacedBy(8.dp),
                             modifier = Modifier.fillMaxWidth()
                         ) {
                             coin.tags.forEach { tag ->

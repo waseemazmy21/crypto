@@ -54,7 +54,7 @@ fun CoinDetailsScreen(
             }
 
             state.coin != null -> {
-                LazyColumn(modifier = Modifier.fillMaxSize()) {
+                LazyColumn(modifier = Modifier.fillMaxSize().padding(20.dp)) {
                     val coin = state.coin
                     item {
                         Row(

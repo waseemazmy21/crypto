@@ -49,7 +49,7 @@ fun CoinListScreen(
                         CoinListItem(
                             coin = coin,
                             onClick = {
-                                navController.navigate("coin_details/${coin.id}")
+                                navController.navigate("coinDetails/${coin.id}")
                             })
                     }
                 }

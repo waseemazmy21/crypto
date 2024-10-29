@@ -6,8 +6,10 @@ import com.example.crypto.data.remote.dto.toCoinDetails
 import com.example.crypto.domain.model.Coin
 import com.example.crypto.domain.model.CoinDetails
 import com.example.crypto.domain.repository.CoinRepository
+import javax.inject.Inject
 
-class CoinRepositoryImpl(private val coinRemoteDataSource: CoinRemoteDataSource): CoinRepository {
+class CoinRepositoryImpl @Inject constructor(private val coinRemoteDataSource: CoinRemoteDataSource) :
+    CoinRepository {
     override suspend fun getCoins(): List<Coin> {
         return coinRemoteDataSource.getCoins().map { it.toCoin() }
     }

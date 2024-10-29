@@ -22,8 +22,8 @@ fun CoinListItem(
 ) {
     Row (
         modifier = Modifier.fillMaxWidth()
-            .padding(20.dp)
-            .clickable { onClick(coin) },
+            .clickable { onClick(coin) }
+            .padding(20.dp), // make padding after clickable to be apart of clickable area
         horizontalArrangement = Arrangement.SpaceBetween,
         verticalAlignment = Alignment.CenterVertically
     ) {
